@@ -1,0 +1,10 @@
+train/
+.ipynb_checkpoints/
+__pycache__/
+checkpoints/
+results/
+
+
+*.ckpt
+*.pkl
+nohup.out
