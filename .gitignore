@@ -3,7 +3,7 @@ train/
 __pycache__/
 checkpoints/
 results/
-
+.idea/
 
 *.ckpt
 *.pkl

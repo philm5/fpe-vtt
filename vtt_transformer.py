@@ -2,8 +2,8 @@ import tensorflow as tf
 import numpy as np
 from official.nlp.transformer.transformer import *
 
-from gan_augmentor_model import MappingNetwork
-from official_transformer_vtt import TransformerVTT
+#from gan_augmentor_model import MappingNetwork
+#from official_transformer_vtt import TransformerVTT
 from official.nlp.transformer.transformer_main import *
 from official.nlp.transformer import misc
 import tensorflow_addons as tfa

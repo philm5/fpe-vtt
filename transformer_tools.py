@@ -2,8 +2,7 @@ import nltk as nltk
 import re
 import tensorflow as tf
 import tensorflow_probability as tfp
-from vtt_transformer import ImageCaptioningTransformer, ImageCaptioningTransformerOfficial, ImageEncoder
-from simple_model import SimpleModel
+from vtt_transformer import ImageCaptioningTransformer
 from reward import get_self_critical_reward, init_scorer
 import os
 import json
@@ -14,11 +13,7 @@ import glob
 import shutil
 import tensorflow_datasets as tfds
 from official.nlp.bert import tokenization
-from tensorflow.keras.mixed_precision import experimental as mixed_precision
 from official.nlp.transformer import metrics
-from official.nlp.transformer import optimizer
-import numpy as np
-import sys
 
 max_iters = 30
 
