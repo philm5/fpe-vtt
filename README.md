@@ -1,6 +1,6 @@
 # Synchronized Audio-Visual Frames with Fractional Positional Encoding for Transformers in Video-to-Text Translation
 
-Code repository to train our VTT models. This is research code for the CVPR submission mentioned above.
+Code repository to train our VTT models. This is research code for the ICIP submission mentioned above.
 
 ## Prepare Data
 
